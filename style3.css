@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.accordion {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    background-color: #2a7db1;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion-header:hover {
+    background-color: #256b98;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #e9f5fb;
+    color: #333;
+}
